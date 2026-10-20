@@ -1,0 +1,487 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T12:16:09.876212+00:00",
+  "title": "Design System: V Drywall",
+  "extensions": {
+    "colorMeta": {
+      "flag-red": {
+        "role": "primary",
+        "displayName": "Flag Red",
+        "canonical": "oklch(50% 0.19 10)",
+        "tonalRamp": [
+          "oklch(15% 0.19 10)",
+          "oklch(26% 0.19 10)",
+          "oklch(38% 0.19 10)",
+          "oklch(49% 0.19 10)",
+          "oklch(61% 0.19 10)",
+          "oklch(72% 0.19 10)",
+          "oklch(84% 0.19 10)",
+          "oklch(95% 0.19 10)"
+        ]
+      },
+      "flag-red-bright": {
+        "role": "primary",
+        "displayName": "Bright Flag Red",
+        "canonical": "oklch(55% 0.2 10)",
+        "tonalRamp": [
+          "oklch(15% 0.19 10)",
+          "oklch(26% 0.19 10)",
+          "oklch(38% 0.19 10)",
+          "oklch(49% 0.19 10)",
+          "oklch(61% 0.19 10)",
+          "oklch(72% 0.19 10)",
+          "oklch(84% 0.19 10)",
+          "oklch(95% 0.19 10)"
+        ]
+      },
+      "red-ink": {
+        "role": "primary",
+        "displayName": "Red Ink",
+        "canonical": "oklch(50% 0.19 10)",
+        "tonalRamp": [
+          "oklch(15% 0.19 10)",
+          "oklch(26% 0.19 10)",
+          "oklch(38% 0.19 10)",
+          "oklch(49% 0.19 10)",
+          "oklch(61% 0.19 10)",
+          "oklch(72% 0.19 10)",
+          "oklch(84% 0.19 10)",
+          "oklch(95% 0.19 10)"
+        ]
+      },
+      "flag-navy": {
+        "role": "secondary",
+        "displayName": "Flag Navy",
+        "canonical": "oklch(31% 0.1 258)",
+        "tonalRamp": [
+          "oklch(15% 0.1 258)",
+          "oklch(26% 0.1 258)",
+          "oklch(38% 0.1 258)",
+          "oklch(49% 0.1 258)",
+          "oklch(61% 0.1 258)",
+          "oklch(72% 0.1 258)",
+          "oklch(84% 0.1 258)",
+          "oklch(95% 0.1 258)"
+        ]
+      },
+      "deep-navy": {
+        "role": "secondary",
+        "displayName": "Deep Navy",
+        "canonical": "oklch(22% 0.07 258)",
+        "tonalRamp": [
+          "oklch(15% 0.07 258)",
+          "oklch(26% 0.07 258)",
+          "oklch(38% 0.07 258)",
+          "oklch(49% 0.07 258)",
+          "oklch(61% 0.07 258)",
+          "oklch(72% 0.07 258)",
+          "oklch(84% 0.07 258)",
+          "oklch(95% 0.07 258)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "oklch(97.5% 0.006 265)",
+        "tonalRamp": [
+          "oklch(15% 0.006 265)",
+          "oklch(26% 0.006 265)",
+          "oklch(38% 0.006 265)",
+          "oklch(49% 0.006 265)",
+          "oklch(61% 0.006 265)",
+          "oklch(72% 0.006 265)",
+          "oklch(84% 0.006 265)",
+          "oklch(95% 0.006 265)"
+        ]
+      },
+      "card-white": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "field-tint": {
+        "role": "neutral",
+        "displayName": "Field Tint",
+        "canonical": "oklch(94% 0.013 255)",
+        "tonalRamp": [
+          "oklch(15% 0.013 255)",
+          "oklch(26% 0.013 255)",
+          "oklch(38% 0.013 255)",
+          "oklch(49% 0.013 255)",
+          "oklch(61% 0.013 255)",
+          "oklch(72% 0.013 255)",
+          "oklch(84% 0.013 255)",
+          "oklch(95% 0.013 255)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(23% 0.07 260)",
+        "tonalRamp": [
+          "oklch(15% 0.07 260)",
+          "oklch(26% 0.07 260)",
+          "oklch(38% 0.07 260)",
+          "oklch(49% 0.07 260)",
+          "oklch(61% 0.07 260)",
+          "oklch(72% 0.07 260)",
+          "oklch(84% 0.07 260)",
+          "oklch(95% 0.07 260)"
+        ]
+      },
+      "body-slate": {
+        "role": "neutral",
+        "displayName": "Body Slate",
+        "canonical": "oklch(34% 0.04 250)",
+        "tonalRamp": [
+          "oklch(15% 0.04 250)",
+          "oklch(26% 0.04 250)",
+          "oklch(38% 0.04 250)",
+          "oklch(49% 0.04 250)",
+          "oklch(61% 0.04 250)",
+          "oklch(72% 0.04 250)",
+          "oklch(84% 0.04 250)",
+          "oklch(95% 0.04 250)"
+        ]
+      },
+      "soft-slate": {
+        "role": "neutral",
+        "displayName": "Soft Slate",
+        "canonical": "oklch(45% 0.03 250)",
+        "tonalRamp": [
+          "oklch(15% 0.03 250)",
+          "oklch(26% 0.03 250)",
+          "oklch(38% 0.03 250)",
+          "oklch(49% 0.03 250)",
+          "oklch(61% 0.03 250)",
+          "oklch(72% 0.03 250)",
+          "oklch(84% 0.03 250)",
+          "oklch(95% 0.03 250)"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "On Dark",
+        "canonical": "oklch(97.5% 0.006 255)",
+        "tonalRamp": [
+          "oklch(15% 0.006 255)",
+          "oklch(26% 0.006 255)",
+          "oklch(38% 0.006 255)",
+          "oklch(49% 0.006 255)",
+          "oklch(61% 0.006 255)",
+          "oklch(72% 0.006 255)",
+          "oklch(84% 0.006 255)",
+          "oklch(95% 0.006 255)"
+        ]
+      },
+      "on-dark-soft": {
+        "role": "neutral",
+        "displayName": "On Dark Soft",
+        "canonical": "oklch(87.5% 0.03 255)",
+        "tonalRamp": [
+          "oklch(15% 0.03 255)",
+          "oklch(26% 0.03 255)",
+          "oklch(38% 0.03 255)",
+          "oklch(49% 0.03 255)",
+          "oklch(61% 0.03 255)",
+          "oklch(72% 0.03 255)",
+          "oklch(84% 0.03 255)",
+          "oklch(95% 0.03 255)"
+        ]
+      },
+      "focus-navy": {
+        "role": "neutral",
+        "displayName": "Focus Navy",
+        "canonical": "oklch(31% 0.1 258)",
+        "tonalRamp": [
+          "oklch(15% 0.1 258)",
+          "oklch(26% 0.1 258)",
+          "oklch(38% 0.1 258)",
+          "oklch(49% 0.1 258)",
+          "oklch(61% 0.1 258)",
+          "oklch(72% 0.1 258)",
+          "oklch(84% 0.1 258)",
+          "oklch(95% 0.1 258)"
+        ]
+      },
+      "error-red": {
+        "role": "neutral",
+        "displayName": "Error Red",
+        "canonical": "oklch(44% 0.17 25)",
+        "tonalRamp": [
+          "oklch(15% 0.17 25)",
+          "oklch(26% 0.17 25)",
+          "oklch(38% 0.17 25)",
+          "oklch(49% 0.17 25)",
+          "oklch(61% 0.17 25)",
+          "oklch(72% 0.17 25)",
+          "oklch(84% 0.17 25)",
+          "oklch(95% 0.17 25)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero H1 only; bounces in letter by letter."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Every band's H2."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service rows and photo card titles."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Short paragraph under a headline, max 40ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text and inputs, never under 16px."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Form labels and button text in Cal Sans."
+      }
+    },
+    "shadows": [
+      {
+        "name": "float-lift",
+        "value": "0 10px 28px rgba(8,24,46,.3)",
+        "purpose": "Floating text circle only."
+      }
+    ],
+    "textures": [
+      {
+        "name": "deep-lines",
+        "value": "repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)",
+        "purpose": "Always on deep navy (quote band, footer)."
+      }
+    ],
+    "overlays": [
+      {
+        "name": "hero-veil-phone",
+        "value": "linear-gradient(180deg,rgba(7,29,58,.8) 0%,rgba(10,49,97,.72) 55%,rgba(7,29,58,.88) 100%)",
+        "purpose": "Hero photo on phones."
+      },
+      {
+        "name": "hero-veil-desktop",
+        "value": "linear-gradient(90deg,rgba(7,29,58,.88) 0%,rgba(10,49,97,.8) 45%,rgba(10,49,97,.5) 75%,rgba(10,49,97,.42) 100%)",
+        "purpose": "Hero photo from 760px; copy side dark, job visible right."
+      },
+      {
+        "name": "card-veil",
+        "value": "linear-gradient(180deg,transparent,rgba(7,29,58,.78))",
+        "purpose": "Bottom 45% of photo cards under a white title."
+      }
+    ],
+    "motion": [
+      {
+        "name": "letter-bounce",
+        "value": "1s cubic-bezier(.34,1.56,.64,1), 20ms stagger, from translateX(50px) opacity 0",
+        "purpose": "Hero H1 only."
+      },
+      {
+        "name": "rise",
+        "value": "opacity/transform .4s ease-out, from translateY(12px)",
+        "purpose": "Content starting below the first screen."
+      },
+      {
+        "name": "float-slide",
+        "value": "transform .35s cubic-bezier(.2,.8,.2,1), from translateY(120px)",
+        "purpose": "Floating text circle in and out."
+      },
+      {
+        "name": "state-fast",
+        "value": ".15s",
+        "purpose": "Field and chip borders."
+      },
+      {
+        "name": "state",
+        "value": ".2s",
+        "purpose": "Button and arrow colour."
+      },
+      {
+        "name": "press",
+        "value": "transform .12s, scale(.98)",
+        "purpose": "Button active."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop",
+        "value": "760px"
+      },
+      {
+        "name": "wide",
+        "value": "1024px"
+      },
+      {
+        "name": "landscape-phone",
+        "value": "max-height:500px and orientation:landscape"
+      }
+    ],
+    "focus": [
+      {
+        "name": "focus-ring",
+        "value": "3px solid #0a3161, offset 3px",
+        "purpose": "Light grounds."
+      },
+      {
+        "name": "focus-ring-dark",
+        "value": "3px solid #fff, offset 3px",
+        "purpose": "Navy, deep, hero and footer."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Flag-red pill with white Cal Sans; every primary action.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Get a quote</a>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#0a1f3f;--soft:#4a5868;--navy:#0a3161;--deep:#071d3a;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--red:#b31942;--red-2:#c8234f;--red-ink:#b31942;--focus:#0a3161;--error:#a3141f;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:var(--pill);font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s} .ds-btn:active{transform:scale(.98)} .ds-btn-primary{background:var(--red);color:#fff;border-color:var(--red)} .ds-btn-primary:hover{background:var(--red-2);border-color:var(--red-2)} .ds-btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Outlined pill for the secondary hero action on navy.",
+      "html": "<div class=\"ds-dark\"><a class=\"ds-btn ds-btn-ghost\" href=\"#\">See our work</a></div>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#0a1f3f;--soft:#4a5868;--navy:#0a3161;--deep:#071d3a;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--red:#b31942;--red-2:#c8234f;--red-ink:#b31942;--focus:#0a3161;--error:#a3141f;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:var(--pill);font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s} .ds-btn:active{transform:scale(.98)} .ds-dark{background:var(--navy);padding:24px} .ds-btn-ghost{background:transparent;color:var(--on-dark);border-color:rgba(244,247,251,.75)} .ds-btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)} .ds-btn-ghost:focus-visible{outline:3px solid #fff;outline-offset:3px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Tinted borderless field on the white form card; navy border on hover and focus.",
+      "html": "<div class=\"ds-card\"><label class=\"ds-label\" for=\"ds-n\">Your name</label><input class=\"ds-input\" id=\"ds-n\" type=\"text\" placeholder=\"First name is fine\"></div>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#0a1f3f;--soft:#4a5868;--navy:#0a3161;--deep:#071d3a;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--red:#b31942;--red-2:#c8234f;--red-ink:#b31942;--focus:#0a3161;--error:#a3141f;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-card{background:var(--card);border-radius:var(--r-card);padding:24px;display:grid;gap:8px;max-width:420px} .ds-label{font:400 18px/1.2 var(--display);color:var(--ink)} .ds-input{width:100%;box-sizing:border-box;font:16px/1.4 var(--text);color:var(--ink);background:var(--field);border:2px solid transparent;border-radius:var(--r-field);padding:13px 14px;min-height:52px;caret-color:var(--navy);transition:border-color .15s} .ds-input::placeholder{color:#5a6878} .ds-input:hover,.ds-input:focus{outline:none;border-color:var(--focus)}"
+    },
+    {
+      "name": "Job Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Checkbox chip; checked fills flag navy.",
+      "html": "<div class=\"ds-chips\"><input type=\"checkbox\" id=\"ds-c1\" checked><label for=\"ds-c1\">Hanging</label><input type=\"checkbox\" id=\"ds-c2\"><label for=\"ds-c2\">Finishing</label><input type=\"checkbox\" id=\"ds-c3\"><label for=\"ds-c3\">Priming</label></div>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#0a1f3f;--soft:#4a5868;--navy:#0a3161;--deep:#071d3a;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--red:#b31942;--red-2:#c8234f;--red-ink:#b31942;--focus:#0a3161;--error:#a3141f;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-chips{display:flex;flex-wrap:wrap;gap:10px;background:#fff;padding:20px} .ds-chips input{position:absolute;width:1px;height:1px;opacity:0;margin:0} .ds-chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:var(--pill);background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;transition:border-color .15s,background-color .15s,color .15s} .ds-chips label:hover{border-color:var(--focus)} .ds-chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:3px} .ds-chips input:checked+label{background:var(--navy);color:#fff}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "",
+      "description": "Paper strip: V mark and wordmark left, tap-to-call right.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-brand\" href=\"#\"><i>V</i><b>V Drywall</b></a><a class=\"ds-tel\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 3h3.5l1.8 4.6-2.3 1.5a11 11 0 0 0 6 6l1.5-2.3L20 14.5V18a2 2 0 0 1-2.2 2A16 16 0 0 1 3 5.2 2 2 0 0 1 5 3z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>(231) 676-9270</a></header>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#0a1f3f;--soft:#4a5868;--navy:#0a3161;--deep:#071d3a;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--red:#b31942;--red-2:#c8234f;--red-ink:#b31942;--focus:#0a3161;--error:#a3141f;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-top{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px;padding:0 20px;background:var(--paper);color:var(--ink)} .ds-brand{display:flex;align-items:center;gap:10px;min-height:44px;text-decoration:none;color:inherit} .ds-brand i{width:36px;height:36px;border-radius:10px;background:var(--navy);color:#fff;display:grid;place-items:center;font:400 22px/1 var(--display);font-style:normal;box-shadow:inset 0 -5px 0 var(--red)} .ds-brand b{font:400 21px/1 var(--display)} .ds-tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;font:400 17px/1 var(--display);text-decoration:none;color:inherit;white-space:nowrap} .ds-tel svg{color:var(--red-ink)} .ds-tel:hover{color:var(--red-ink)} .ds-tel:focus-visible,.ds-brand:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Full-width link row on flag navy; only the arrow circle fills red on hover or focus.",
+      "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\">Drywall hanging<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></li><li><a class=\"ds-row\" href=\"#\">Priming<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></li></ul>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#0a1f3f;--soft:#4a5868;--navy:#0a3161;--deep:#071d3a;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--red:#b31942;--red-2:#c8234f;--red-ink:#b31942;--focus:#0a3161;--error:#a3141f;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-rows{list-style:none;margin:0;padding:8px 24px;background:var(--navy)} .ds-rows li+li{border-top:1px solid rgba(255,255,255,.14)} .ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px;padding:12px 0;text-decoration:none;color:var(--on-dark);font:400 clamp(21px,5.8vw,26px)/1.15 var(--display)} .ds-row:focus-visible{outline:none} .ds-arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1);color:var(--on-dark);transition:background-color .2s,color .2s} .ds-row:hover .ds-arrow{background:var(--red);color:#fff} .ds-row:focus-visible .ds-arrow{background:var(--red);color:#fff;outline:3px solid #fff;outline-offset:3px}"
+    },
+    {
+      "name": "Work Photo Card",
+      "kind": "card",
+      "refersTo": "",
+      "description": "24px-rounded real job photo with a deep-navy bottom veil and white title.",
+      "html": "<figure class=\"ds-shot\"><div class=\"ds-ph\"></div><h3>Garage in Bellaire</h3></figure>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#0a1f3f;--soft:#4a5868;--navy:#0a3161;--deep:#071d3a;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--red:#b31942;--red-2:#c8234f;--red-ink:#b31942;--focus:#0a3161;--error:#a3141f;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-shot{position:relative;margin:0;border-radius:var(--r-card);overflow:hidden;background:var(--navy);aspect-ratio:4/3;max-width:420px} .ds-ph{position:absolute;inset:0;background:linear-gradient(135deg,#dfe3e8,#b9c2cc)} .ds-shot::after{content:'';position:absolute;inset:auto 0 0 0;height:45%;background:linear-gradient(180deg,transparent,rgba(7,29,58,.78))} .ds-shot h3{position:absolute;z-index:1;left:20px;right:20px;bottom:18px;margin:0;color:#fff;font:400 clamp(20px,5.4vw,26px)/1.08 var(--display)}"
+    },
+    {
+      "name": "Floating Text Circle",
+      "kind": "custom",
+      "refersTo": "float-text",
+      "description": "60px red circle that opens a pre-written text; the only shadowed element.",
+      "html": "<a class=\"ds-float\" href=\"#\" aria-label=\"Text V Drywall\"><svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\" aria-hidden=\"true\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#0a1f3f;--soft:#4a5868;--navy:#0a3161;--deep:#071d3a;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--red:#b31942;--red-2:#c8234f;--red-ink:#b31942;--focus:#0a3161;--error:#a3141f;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-float{width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--red);color:#fff;box-shadow:0 10px 28px rgba(8,24,46,.3);transition:transform .35s cubic-bezier(.2,.8,.2,1)} .ds-float:hover{transform:translateY(-2px)} .ds-float:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Shop Sign, Calmly",
+    "overview": "This is Ellie's house **calm band style** (`~/.claude/skills/pitch-site/references/calm-photo-style.md`), recoloured from the crew's own shop sign: flag navy and flag red on white. Full-bleed bands alternate paper and navy so every new section is obvious at a glance on a phone; the order shipped is navy photo hero, paper, navy, paper, deep textured navy, paper, deep textured footer. Shapes are soft and borderless, type is one display webfont over a system body, and motion is limited to one letter bounce on the hero H1 and one quiet fade-up below the fold.\n\nThe page is low-density and phone-first: one idea per band, a headline, at most a lede, and one control group. The crew's real primed-garage photo carries the hero under a navy overlay, and the same photo language (navy bottom gradient, white title) returns in the work band. Nothing is decorative that isn't from the business itself: the colours are the sign, the photo is their job.\n\nThe build departs from the house style in three deliberate, contrast-driven ways, all recorded as rules below: the warm accent is a red rather than a gold, so text on the accent fill is **white**, not navy (navy on this red fails contrast); there is **no accent-coloured phrase on dark bands** (red on navy fails); and the accent phrase instead appears on **paper** headings, set in red ink.",
+    "keyCharacteristics": [
+      "Calm band style: paper / flag navy / deep navy with faint 135deg line texture, full bleed, alternating.",
+      "One accent, flag red, used as a fill with white text, and as red-ink text on paper only.",
+      "Cal Sans display at weight 400 for headings, buttons, labels and phone numbers; system stack body at 16/1.7.",
+      "Soft, borderless forms: 24px cards, full pills, 10px tinted fields.",
+      "Motion: hero H1 letter bounce-in, a 12px fade-up for content below the first screen, a sliding text circle. All off under reduced motion."
+    ],
+    "rules": [
+      {
+        "name": "The White-On-Red Rule",
+        "body": "Anything set on a flag-red fill is white. Navy on this red fails contrast. This is the deliberate deviation from the house style's navy-on-accent rule, which assumes a gold.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paper-Only Accent Phrase Rule",
+        "body": "A heading's closing phrase may be set in red ink (\"Hung, finished *and primed.*\", \"Any questions? *Give us a call.*\") only on paper bands. Dark-band headings stay entirely on-dark: red text on navy fails contrast. This reverses the house style, which puts the accent phrase on dark bands only.",
+        "section": "colors"
+      },
+      {
+        "name": "The Red Is Action Rule",
+        "body": "Red fills mark something you can press: a primary button, the text circle, an arrow that has become active. Red on navy is fine as a fill under white; it is never text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Textured Deep Rule",
+        "body": "Deep navy always carries the 135deg line texture (`rgba(255,255,255,.035)` 1px lines every 23px), kept at about 4% white so it never reads as lines through text. Flag navy is always flat.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Weight Rule",
+        "body": "Cal Sans is used at 400 only; hierarchy comes from size, not weight. Bold appears only inside body copy (the hero promise's quoted line, at 600).",
+        "section": "typography"
+      },
+      {
+        "name": "The Display-For-Doing Rule",
+        "body": "Every control label (buttons, form labels, service rows, phone links) is set in Cal Sans so actions read as part of the voice, not as UI chrome.",
+        "section": "typography"
+      },
+      {
+        "name": "The Band-Not-Shadow Rule",
+        "body": "Separate things by changing band or by a 1px 14% white rule between service rows; never by a card shadow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Navy Veil Rule",
+        "body": "A real photo always sits under a navy gradient: top-to-bottom deep/navy/deep (0.8 / 0.72 / 0.88) on phones, left-to-right 0.88 fading to 0.42 on desktop so the job shows on the right while the copy side stays dark. Photo cards use a bottom 45% gradient to deep navy at 0.78 under a white title.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** put white text and icons on every flag-red fill (6.4:1).",
+      "**Do** use red ink for the accent phrase in paper-band headings only, and keep dark-band headings fully on-dark.",
+      "**Do** alternate full-bleed paper and navy bands, and give deep navy the 135deg line texture at about 4% white.",
+      "**Do** set headings, buttons, labels and phone numbers in Cal Sans 400; keep body and inputs on the system stack at 16px or larger.",
+      "**Do** give fields and chips the field tint on white cards, never paper.",
+      "**Do** put real job photos under the navy veil and check white text at 4.5:1 or better over them.",
+      "**Do** keep hover styles inside `(hover: hover)` and every tap target at 44px or more.",
+      "**Do** switch focus outlines to white on navy, deep, hero and footer."
+    ],
+    "donts": [
+      "**Don't** set navy text on the red fill, or red text on navy or deep navy; both fail contrast.",
+      "**Don't** use a gold or second warm accent; the sign's red is the only accent.",
+      "**Don't** add card shadows; the floating text circle is the only lifted element.",
+      "**Don't** letter-animate any heading but the hero H1, or leave content hidden at opacity 0 at rest.",
+      "**Don't** highlight a whole service row on hover; only its arrow fills.",
+      "**Don't** add a second body font or a bold Cal Sans.",
+      "**Don't** replace the floating circle with a bottom bar."
+    ]
+  }
+}
