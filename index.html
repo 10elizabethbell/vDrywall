@@ -32,7 +32,7 @@
   --body:#2a3a4c;        /* running text on light */
   --soft:#4a5868;        /* secondary text on light */
   --navy:#0a3161;        /* flag blue: hero overlay, services, close */
-  --deep:#071d3a;        /* every-job band, footer (line texture) */
+  --deep:#071d3a;        /* quote band, footer (line texture) */
   --on-dark:#f4f7fb;
   --on-dark-soft:#c9d7ea;
   --red:#b31942;         /* the one accent: fills, white text on it (6.4:1) */
@@ -64,7 +64,6 @@ p{margin:0}
 /* ---------- Bands ---------- */
 section{padding:64px 0}
 .on-paper{background:var(--paper)}
-.on-white{background:var(--card)}
 .on-navy{background:var(--navy);color:var(--on-dark-soft)}
 .on-deep{background-color:var(--deep);background-image:var(--texture);color:var(--on-dark-soft)}
 .on-navy h2,.on-deep h2,.on-navy h3,.on-deep h3{color:var(--on-dark)}
@@ -110,12 +109,6 @@ section{padding:64px 0}
 .promise b{color:var(--on-dark);font-weight:600}
 .actions{display:grid;gap:12px;width:100%;margin-top:4px}
 
-/* ---------- Every job: hang, finish, prime ---------- */
-.steps{list-style:none;margin:36px 0 0;padding:0;display:grid;gap:24px;counter-reset:s}
-.steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;align-items:start;counter-increment:s}
-.steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--red);color:#fff;font:400 20px/1 var(--display)}
-.steps b{display:block;font:400 22px/1.2 var(--display);color:var(--ink);margin-top:4px}
-.steps span{display:block;margin-top:4px}
 
 /* ---------- Services: each row opens the quote with that job picked ---------- */
 .rows{list-style:none;margin:32px 0 0;padding:0;display:grid}
@@ -136,13 +129,13 @@ section{padding:64px 0}
 .fb .lbl{display:flex;align-items:center;gap:14px;text-wrap:balance}
 .fb .lbl svg{width:28px;height:28px;flex:none}
 .fb .arrow{background:rgba(255,255,255,.14);color:#fff}
-.fb:focus-visible .arrow{background:var(--red);outline:3px solid var(--focus);outline-offset:3px}
+.fb:focus-visible .arrow{background:var(--red);outline:3px solid #fff;outline-offset:3px}
 
 /* ---------- Form ---------- */
 .ask .wrap{display:grid;gap:28px}
 form{background:var(--card);border-radius:var(--r-card);padding:clamp(20px,5vw,32px);display:grid;gap:20px;max-width:600px}
 .field{display:grid;gap:8px;min-width:0}
-.field label,.field legend{font:400 17px/1.2 var(--display);color:var(--ink);padding:0}
+.field label,.field legend{font:400 18px/1.2 var(--display);color:var(--ink);padding:0}
 .field small{font:400 14px/1 var(--text);color:var(--soft);margin-left:4px}
 fieldset{border:0;margin:0;padding:0;min-width:0}
 fieldset.field legend{margin-bottom:8px}
@@ -155,22 +148,22 @@ input[type=text]:focus,textarea:focus{outline:none;border-color:var(--focus)}
 .chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:var(--pill);background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;margin:0;transition:border-color .15s,background-color .15s,color .15s}
 .chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:3px}
 .chips input:checked+label{background:var(--navy);color:#fff}
-.err{display:none;font-size:15px;color:var(--error)}
+.err{display:none;font-size:16px;color:var(--error)}
 .field.bad .err{display:block}
 .field.bad input[type=text],.field.bad textarea,.field.bad input[type=text]:focus,.field.bad textarea:focus{border-color:var(--error)}
 form .btn-primary{width:100%}
 form .btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
-.after{font-size:15px;color:var(--soft)}
+.after{font-size:14px;color:var(--soft)}
 .sent{color:var(--ink);font-weight:600}
 .sent a{white-space:nowrap;display:inline-block;padding:11px 0;margin:-11px 0}
+.copy{margin-top:12px;min-height:48px;background:var(--field);color:var(--ink);font-size:16px}
 @media (max-width:380px){.chips label{padding:0 14px}}
 
 /* ---------- Close ---------- */
-.close .who{margin-top:14px;font-size:clamp(18px,5vw,20px);color:var(--on-dark-soft);max-width:36ch}
-.bigtel{display:inline-flex;align-items:center;gap:12px;font:400 clamp(30px,9vw,52px)/1 var(--display);text-decoration:none;color:var(--on-dark);min-height:56px;white-space:nowrap}
-.bigtel svg{width:.75em;height:.75em;flex:none;color:#ff8aa3}
+.bigtel{display:inline-flex;align-items:center;gap:12px;font:400 clamp(30px,9vw,52px)/1 var(--display);text-decoration:none;color:var(--ink);min-height:56px;white-space:nowrap}
+.bigtel svg{width:.75em;height:.75em;flex:none;color:var(--red-ink)}
 .tels{display:grid;gap:6px;justify-items:start;margin-top:28px}
-.tel2{display:inline-flex;align-items:center;min-height:44px;font:400 20px/1 var(--display);color:var(--on-dark-soft);text-decoration:none;white-space:nowrap}
+.tel2{display:inline-flex;align-items:center;min-height:44px;font:400 20px/1 var(--display);color:var(--soft);text-decoration:none;white-space:nowrap}
 
 /* ---------- Footer ---------- */
 footer{background-color:var(--deep);background-image:var(--texture);color:var(--on-dark-soft);padding:48px 0 calc(96px + env(safe-area-inset-bottom));font-size:16px}
@@ -200,10 +193,11 @@ footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-d
   .promise{max-width:none}
   .actions{grid-auto-flow:column;justify-content:start;width:auto}
   .actions .btn{min-width:220px}
+  /* let their primed wall show on the right; keep the copy side dark */
+  .hero::after{background:linear-gradient(90deg,rgba(7,29,58,.88) 0%,rgba(10,49,97,.8) 45%,rgba(10,49,97,.5) 75%,rgba(10,49,97,.42) 100%)}
   .fb{max-width:520px}
 }
 @media (min-width:1024px){
-  .how .steps{grid-template-columns:repeat(3,1fr);gap:40px}
   .services .wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:64px;align-items:start}
   .services .rows{margin-top:0}
   .work .wrap{display:grid;grid-template-columns:1fr 1.5fr;grid-template-rows:auto 1fr;column-gap:64px;align-items:start}
@@ -224,8 +218,16 @@ input[type=text]:hover,textarea:hover{border-color:var(--focus)}
 .chips label:hover{border-color:var(--focus)}
 form .btn-primary:hover{outline:3px solid var(--focus);outline-offset:3px}
 .sent a:hover{color:var(--red-ink)}
-.bigtel:hover,.tel2:hover,footer a:hover{color:#fff;text-decoration:underline;text-underline-offset:6px}
+.bigtel:hover,.tel2:hover{color:var(--red-ink)}
+footer a:hover{color:#fff;text-decoration:underline;text-underline-offset:6px}
 }
+/* phones held sideways: keep the headline and the button on the first screen */
+@media (max-height:500px) and (orientation:landscape){
+  .hero-copy{padding-top:32px;padding-bottom:40px}
+  .hero h1{font-size:clamp(36px,9vh,52px);max-width:18ch}
+}
+/* the bounce waits (at most 700ms) for Cal Sans so letters don't swap font mid-flight */
+.js .hero h1.wait{visibility:hidden}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   .js .rise,.float,.btn{transition:none}
@@ -239,6 +241,7 @@ form .btn-primary:hover{outline:3px solid var(--focus);outline-offset:3px}
 THESIS: A drywall crew's site that earns trust through calm order: one claim (drywall done right in Northern Michigan), the crew's own line ("Give 100% and do great work"), the full hang-finish-prime job, their real garage, and an easy way to ask for a quote.
 OWN-WORLD: Off-white paper, flag blue (#0a3161) and deep blue (#071d3a, faint diagonal lines) bands, flag red (#b31942) from their shop sign as the one accent (fills with white text; red text on light at 5.9:1). Cal Sans display, system body at 16/1.7.
 STORY: The visitor sees who does drywall and painting near them, believes the crew finishes what it starts (hang, finish, prime, every job), sees a real primed garage, and texts or calls for a quote.
+BANDS: navy photo hero / paper every-job / navy services / paper work / deep textured quote / paper close / deep footer.
 FIRST VIEWPORT: Paper header with V mark + wordmark left and tap-to-call number top right. Hero: their primed-garage photo under a navy overlay; eyebrow, "Drywall done right in Northern Michigan", their promise, two pill buttons (Get a quote, See our work).
 FORM: calm band system with a real photo hero.
 -->
@@ -276,13 +279,8 @@ FORM: calm band system with a real photo hero.
     <div class="head rise">
       <p class="eyebrow">Every job</p>
       <h2 id="h-how">We finish what we start.</h2>
-      <p class="lede">Nobody wants to chase three trades for one room. Our guys hang it, finish it, and we come back and prime it, so your walls are ready for paint when we leave.</p>
+      <p class="lede">We hang, finish and prime every job we do. Our guys hang and finish it, then we go in and prime it after they're done, so you're not left waiting on another crew.</p>
     </div>
-    <ol class="steps">
-      <li class="rise"><div><b>Hang</b><span>Board up, cut clean around every window and box.</span></div></li>
-      <li class="rise"><div><b>Finish</b><span>Taped and mudded until the seams disappear.</span></div></li>
-      <li class="rise"><div><b>Prime</b><span>Sealed and ready for paint.</span></div></li>
-    </ol>
   </div>
 </section>
 
@@ -313,18 +311,18 @@ FORM: calm band system with a real photo hero.
       <h3>Garage in Bellaire</h3>
     </figure>
     <a class="fb rise" href="https://facebook.com/profile.php?id=61551727280258" rel="noopener">
-      <span class="lbl"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4h-3V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg>Click to see more of our work.</span>
+      <span class="lbl"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4h-3V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg>See more of our work on Facebook</span>
       <span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
     </a>
   </div>
 </section>
 
-<section class="on-white ask" id="quote" aria-labelledby="h-ask">
+<section class="on-deep ask" id="quote" aria-labelledby="h-ask">
   <div class="wrap">
     <div class="head rise">
       <p class="eyebrow">Free to ask</p>
       <h2 id="h-ask">Tell us about the job</h2>
-      <p class="lede">A garage, a basement, one patched wall. Any questions, we'll answer them.</p>
+      <p class="lede">Any questions, we'll answer them.</p>
     </div>
     <form id="quoteForm" class="rise" novalidate>
       <fieldset class="field">
@@ -348,22 +346,22 @@ FORM: calm band system with a real photo hero.
       </div>
       <div class="field" id="f-what">
         <label for="what">About the job</label>
-        <textarea id="what" name="what" maxlength="600" placeholder="Which rooms, roughly how big, new build or repair…" aria-describedby="e-what"></textarea>
+        <textarea id="what" name="what" maxlength="600" placeholder="Which rooms, and roughly how big…" aria-describedby="e-what"></textarea>
         <p class="err" id="e-what">Tell us a little about the job, or pick one above.</p>
       </div>
       <button class="btn btn-primary" type="submit"><svg aria-hidden="true"><use href="#i-chat"/></svg>Text this to us</button>
-      <p class="sent" id="sent" role="status" hidden>Didn't open your messages? Call us at <a href="tel:+12316769270">(231) 676-9270</a>.</p>
+      <div id="sent" role="status" hidden>
+        <p class="sent">Didn't open your messages? Call us at <a href="tel:+12316769270">(231) 676-9270</a>, or copy your message and text it.</p>
+        <button type="button" class="btn copy" id="copy">Copy message</button>
+      </div>
       <p class="after">Opens your messages with this written out.</p>
     </form>
   </div>
 </section>
 
-<section class="on-navy close" id="close" aria-labelledby="h-close">
+<section class="on-paper close" id="close" aria-labelledby="h-close">
   <div class="wrap">
-    <div class="rise">
-      <h2 id="h-close">V Drywall</h2>
-      <p class="who">Drywall hanging, finishing and priming, and interior and exterior painting, across Northern Michigan.</p>
-    </div>
+    <h2 id="h-close" class="rise">Any questions? <span class="accent">Give us a call.</span></h2>
     <div class="tels rise">
       <a class="bigtel" href="tel:+12316769270"><svg aria-hidden="true"><use href="#i-phone"/></svg>(231) 676-9270</a>
       <a class="tel2" href="tel:+19893068428">or (989) 306-8428</a>
@@ -374,7 +372,7 @@ FORM: calm band system with a real photo hero.
 
 <footer>
   <div class="wrap">
-    <span>V Drywall · Northern Michigan · <span class="nw">(231) 676-9270</span> · <span class="nw">(989) 306-8428</span></span>
+    <span>V Drywall · Drywall and painting · Northern Michigan</span>
     <nav aria-label="Elsewhere">
       <a href="https://facebook.com/profile.php?id=61551727280258" rel="noopener">Facebook</a>
     </nav>
@@ -395,6 +393,10 @@ document.documentElement.classList.add('js');
 (function(){
   var h=document.getElementById('h1');
   if(!h||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  h.classList.add('wait');
+  var ready=document.fonts&&document.fonts.load?document.fonts.load('1em "Cal Sans"'):Promise.resolve();
+  Promise.race([ready,new Promise(function(r){setTimeout(r,700)})]).catch(function(){}).then(run);
+  function run(){
   var plain=h.innerHTML,i=0,last=null;
   h.setAttribute('aria-label',h.textContent.replace(/\s+/g,' ').trim());
   function split(node,into){
@@ -412,7 +414,9 @@ document.documentElement.classList.add('js');
   }
   var frag=document.createDocumentFragment();split(h,frag);h.textContent='';h.appendChild(frag);
   // once the last letter lands, put the plain heading back so kerning and text selection return
+  h.classList.remove('wait');
   if(last)last.addEventListener('animationend',function(){h.innerHTML=plain;h.removeAttribute('aria-label')});
+  }
 })();
 
 /* ===== Service rows pre-pick their job in the form ===== */
@@ -428,6 +432,12 @@ document.documentElement.classList.add('js');
 /* ===== Quote form: composes a text to the crew ===== */
 (function(){
   var form=document.getElementById('quoteForm');if(!form)return;
+  var lastMsg='';
+  // the copy button is a convenience; Facebook's browser may block the clipboard, so the number is always shown too
+  document.getElementById('copy').addEventListener('click',function(){
+    var b=this;if(!navigator.clipboard){b.textContent='Copy not available here';return}
+    navigator.clipboard.writeText(lastMsg).then(function(){b.textContent='Copied'},function(){b.textContent='Copy not available here'});
+  });
   function val(id){return document.getElementById(id).value.trim()}
   function mark(id,bad){var f=document.getElementById(id);f.classList.toggle('bad',bad);f.querySelector('input,textarea').setAttribute('aria-invalid',bad?'true':'false')}
   form.addEventListener('input',function(e){var f=e.target.closest('.field');if(f&&f.classList.contains('bad')&&e.target.value.trim())f.classList.remove('bad')});
@@ -443,6 +453,7 @@ document.documentElement.classList.add('js');
     msg+=jobs.length?' for: '+jobs.join(', ')+'.':'.';
     if(what)msg+=' '+what+(/[.!?]$/.test(what)?'':'.');
     if(where)msg+=' Town: '+where+'.';
+    lastMsg=msg;
     location.href='sms:'+CONFIG.SMS+'?&body='+encodeURIComponent(msg);
     // if no messages app opened (desktop, some in-app browsers), say what to do instead
     setTimeout(function(){document.getElementById('sent').hidden=false},900);
