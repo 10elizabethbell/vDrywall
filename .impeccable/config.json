@@ -83,6 +83,15 @@
         ],
         "createdAt": "2026-10-20T12:17:43.201Z",
         "reason": "Shipped calm-style value DESIGN.md omitted (documenter derived it from this page); Claude's triage, not user-confirmed"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T23:18:02.461Z",
+        "reason": "Detector only sees 14-20px UI sizes; Cal Sans display steps 80/48/26px carry the hierarchy. Claude's triage, not user-confirmed"
       }
     ]
   }
