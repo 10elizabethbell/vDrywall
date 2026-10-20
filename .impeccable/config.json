@@ -11,6 +11,78 @@
         ],
         "createdAt": "2026-10-20T12:07:58.877Z",
         "reason": "Ellie's house calm band style (pitch-site calm-photo-style.md item 2) requires the faint 135deg line texture on deep bands"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "20px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T12:17:42.761Z",
+        "reason": "Shipped calm-style value DESIGN.md omitted (documenter derived it from this page); Claude's triage, not user-confirmed"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "6px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T12:17:42.829Z",
+        "reason": "Shipped calm-style value DESIGN.md omitted (documenter derived it from this page); Claude's triage, not user-confirmed"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#ff5a7a",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T12:17:42.891Z",
+        "reason": "Shipped calm-style value DESIGN.md omitted (documenter derived it from this page); Claude's triage, not user-confirmed"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "20px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T12:17:42.954Z",
+        "reason": "Shipped calm-style value DESIGN.md omitted (documenter derived it from this page); Claude's triage, not user-confirmed"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "14px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T12:17:43.015Z",
+        "reason": "Shipped calm-style value DESIGN.md omitted (documenter derived it from this page); Claude's triage, not user-confirmed"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "24px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T12:17:43.078Z",
+        "reason": "Shipped calm-style value DESIGN.md omitted (documenter derived it from this page); Claude's triage, not user-confirmed"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "36px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T12:17:43.140Z",
+        "reason": "Shipped calm-style value DESIGN.md omitted (documenter derived it from this page); Claude's triage, not user-confirmed"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "52px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T12:17:43.201Z",
+        "reason": "Shipped calm-style value DESIGN.md omitted (documenter derived it from this page); Claude's triage, not user-confirmed"
       }
     ]
   }
